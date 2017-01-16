@@ -1,0 +1,3 @@
+#!/bin/sh
+dir=~/src/github.com/ruby/ruby
+"$dir/ruby" -I "$dir" -I "$dir/lib" -I "$dir/.ext/x86_64-darwin16" -I ./lib -I ./test test/packages_test.rb
